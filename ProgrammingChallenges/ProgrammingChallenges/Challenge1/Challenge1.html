@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="Scripts/guessingGame.js"></script>
+    <script src="../Lib/jquery-latest.js"></script>
+    <title>Solution to Challenge #1</title>
+</head>
+    <body>
+        <div>
+            <a href="http://www.reddit.com/r/dailyprogrammer/comments/pii6j/difficult_challenge_1/">Link to the challenge</a>
+            <p>"We all know the classic "guessing game" with higher or lower prompts. lets do a role reversal; you create a program that will guess numbers between 1-100, and respond appropriately based on whether users say that the number is too high or too low. Try to make a program that can guess your number based on user input and great code!"</p>
+            <div>
+                <input type="button" onclick="guessingGame.guess(50)" value="Click the button when you have picked a value between 1 and 100"/>
+            </div>
+            <input type="button" onclick="guessingGame.higher()" value="The value I'm thinking of is higher"/>
+            <input type="button"  onclick="guessingGame.lower()" value="The value I'm thinking of is lower"/>
+            <div>
+                <input type="button" onclick="guessingGame.correct()" value="You are correct!"/>
+            </div>
+        </div>
+        <div id="log">
+            
+        </div>
+    </body>
+</html>
