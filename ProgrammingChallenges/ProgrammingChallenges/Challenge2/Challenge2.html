@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Solution to Challenge #2</title>
+    <script src="../Lib/jquery-latest.js"></script>
+    <script src="Scripts/timerFunction.js"></script>
+
+</head>
+    <body>
+        <div>
+            <a href="http://www.reddit.com/r/dailyprogrammer/comments/pjsdx/difficult_challenge_2/">Link to the challenge</a>
+            <p>"Your mission is to create a stopwatch program. this program should have start, stop, and lap options, and it should write out to a file to be viewed later."</p>
+            <p>Programmeringsplanering</p>
+            <ul>
+                <li>Räkna upp hundradelar. Vid 99 ska sekunder räknas upp med 1 när sekunder är 60 ska minuter räknas upp med 1.</li>
+                <li>Lap-funktion ska spara min, sek och hundradelar</li>
+                <li>Start-funktion ska nollställa allt.</li>
+                <li>Stop-funktion ska bara stanna uppräkningen.</li>
+            </ul>
+            <div>
+                <label id="time"></label>
+            </div>
+            <div id="laps">
+                
+            </div>
+            <div>
+                <input type="button" id="start" onclick="stopWatch.start()" value="Start"/>
+                <input type="button" id="stop" disabled="disabled" onclick="stopWatch.stop()" value="Stop"/>
+                <input type="button" id="lap" disabled="disabled" onclick="stopWatch.lap()" value="Lap"/>
+                <input type="button" id="reset" disabled="disabled" onclick="stopWatch.reset()" value="Reset"/>
+            </div>
+        </div>
+    </body>
+</html>
