@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="../Lib/jquery-latest.js"></script>
+    <script src="Script/cipherFunctions.js"></script>
+</head>
+    <body onload="cipher.getList()">
+        <div>
+            <p>For this challenge, you need to write a program that will take the scrambled words from this post, and compare them against <a href="http://pastebin.com/jSD873gL">THIS WORD LIST</a> to unscramble them. For bonus points, sort the words by length when you are finished. Post your programs and/or subroutines!</p>
+            Here are your words to de-scramble:
+            <ul>
+                <li>mkeart</li>
+                <li>sleewa</li>
+                <li>edcudls</li>
+                <li>iragoge</li>
+                <li>usrlsle</li>
+                <li>nalraoci</li>
+                <li>nsdeuto</li>
+                <li>amrhat</li>
+                <li>inknsy</li>
+                <li>iferkna</li>
+            </ul>
+        </div>
+        <div><input type="button" onclick="cipher.unscramble()" value="Descramble"/></div>
+        <div id="descrambled"></div>
+    </body>
+</html>
