@@ -61,6 +61,8 @@
     <Content Include="Challenge1\Scripts\guessingGame.js" />
     <Content Include="Challenge2\Challenge2.html" />
     <Content Include="Challenge2\Scripts\timerFunction.js" />
+    <Content Include="Challenge3\Challenge3.html" />
+    <Content Include="Challenge3\Script\cipherFunctions.js" />
     <Content Include="Index.html" />
     <Content Include="Lib\jquery-latest.js" />
     <Content Include="Web.config" />
